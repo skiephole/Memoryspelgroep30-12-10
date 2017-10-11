@@ -1,0 +1,20 @@
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\jimiv\OneDrive\Documenten\Visual Studio 2017\Projects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\jimiv\Desktop\Mijn Spullen\Memory30git\MemorycodeJimi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

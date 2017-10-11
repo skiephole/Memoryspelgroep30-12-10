@@ -1,0 +1,12 @@
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory Game.csprojResolveAssemblyReference.cache
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenStart.resources
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory_Game.Homescreen.resources
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory_Game.Properties.Resources.resources
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory Game.csproj.GenerateResource.Cache
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory Game.csproj.CoreCompileInputs.cache
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\bin\Debug\Memory Game.exe
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\bin\Debug\Memory Game.pdb
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory Game.exe
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory Game.pdb
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenHighscores.resources
+C:\Users\JohannesSWAG\Documents\Johannes\HBO-ICT\Project Memory game\Game files\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenThemes.resources

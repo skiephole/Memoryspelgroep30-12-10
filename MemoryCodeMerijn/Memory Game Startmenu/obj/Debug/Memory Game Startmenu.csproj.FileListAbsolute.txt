@@ -1,0 +1,10 @@
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.exe.config
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.exe
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.pdb
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.csprojResolveAssemblyReference.cache
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Properties.Resources.resources
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.csproj.GenerateResource.Cache
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.exe
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.pdb
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.playernames.resources
+c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Homescreen.resources
