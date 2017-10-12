@@ -11,6 +11,7 @@ namespace Memory_Game
 {
     public partial class HomescreenStart : Form
     {
+        Form1 start;
         public HomescreenStart()
         {
             InitializeComponent();
@@ -26,8 +27,21 @@ namespace Memory_Game
 
         private void Start_Click(object sender, EventArgs e)
         {
-
+            start = new Form1();
+            this.Hide();
+            start.ShowDialog();
+            this.Close();
         }
 
+        private void Player1_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textbox = sender as TextBox;
+            start.Playernames(1, textbox.Text);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
