@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Resources;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        Image[] images = new Image[8];
         Random rnd = new Random();
         PictureBox firstClick, secondClick;
 
@@ -21,6 +23,17 @@ namespace WindowsFormsApp1
             InitializeComponent();
             List<MemoryCard> list = MakeList();
             MemoryCard[] catalog = MakeCatalog();
+
+            images[0] = Properties.Resources.Nummer_1;
+            images[1] = Properties.Resources.Nummer_2;
+            images[2] = Properties.Resources.Nummer_3;
+            images[3] = Properties.Resources.Nummer_4;
+            images[4] = Properties.Resources.Nummer_5;
+            images[5] = Properties.Resources.Nummer_6;
+            images[6] = Properties.Resources.Nummer_7;
+            images[7] = Properties.Resources.Nummer_8;
+            
+
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 AssignRandomTag(control, list);
@@ -34,13 +47,14 @@ namespace WindowsFormsApp1
             if (firstClick == null && picturebox.BackColor != Color.Green)
             {
                 firstClick = picturebox;
-                picturebox.BackColor = Color.Red;
+                picturebox.Image = images[Convert.ToInt32(picturebox.Tag)]; 
                 Console.WriteLine(picturebox.Tag);
             }
             else if (firstClick != picturebox && picturebox.BackColor != Color.Green)
             {
                 secondClick = picturebox;
-                picturebox.BackColor = Color.Red;
+                picturebox.Image = images[Convert.ToInt32(picturebox.Tag)];
+                this.Update();
                 Thread.Sleep(1000);
                 Console.WriteLine(picturebox.Tag);
                 ResolveMatch(firstClick, secondClick);
