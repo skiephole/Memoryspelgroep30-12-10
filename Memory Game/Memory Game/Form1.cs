@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.IO;
 
 namespace Memory_Game
 
@@ -27,6 +28,7 @@ namespace Memory_Game
             {
                 AssignRandomTag(control, list);
             }
+            
 
         }
 
@@ -82,20 +84,22 @@ namespace Memory_Game
 
         private void label1_Click(object sender, EventArgs e)
         {
-           // Label.Show(player1);
+           
+            
         }
 
-        public void Playernames(int number, string name)
+        private void label2_Click(object sender, EventArgs e)
         {
-            if(number == 1)
-            {
-                player1 = name;
-                label1.Text = player1;
-            }
-            else if(number == 2)
-            {
-                player2 = name;
-            }
+
+        }
+
+        public void Playernames(string name1, string name2)
+        {
+            player1 = name1;
+            label1.Text = player1;
+            player2 = name2;
+            label2.Text = player2;
+
         }
 
         private void ResolveMatch(PictureBox first, PictureBox second)
