@@ -73,6 +73,7 @@
     <Compile Include="HomescreenThemes.Designer.cs">
       <DependentUpon>HomescreenThemes.cs</DependentUpon>
     </Compile>
+    <Compile Include="JesusSaves.cs" />
     <Compile Include="MemoryCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,6 +111,33 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nummer-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Savefile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
