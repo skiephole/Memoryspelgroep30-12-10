@@ -36,3 +36,16 @@ C:\Users\jimiv\Desktop\Mijn Spullen\Git REPOS\Mememory\Memory Game\Memory Game\o
 C:\Users\jimiv\Desktop\Mijn Spullen\Git REPOS\Mememory\Memory Game\Memory Game\obj\Debug\Memory Game.csproj.CoreCompileInputs.cache
 C:\Users\jimiv\Desktop\Mijn Spullen\Git REPOS\Mememory\Memory Game\Memory Game\obj\Debug\Memory Game.exe
 C:\Users\jimiv\Desktop\Mijn Spullen\Git REPOS\Mememory\Memory Game\Memory Game\obj\Debug\Memory Game.pdb
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\bin\Debug\Memory Game.exe
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\bin\Debug\Memory Game.pdb
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory Game.csprojResolveAssemblyReference.cache
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.Form1.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenHighscores.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenStart.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.Homescreen.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.HomescreenThemes.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory_Game.Properties.Resources.resources
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory Game.csproj.GenerateResource.Cache
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory Game.csproj.CoreCompileInputs.cache
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory Game.exe
+D:\NHL HBO ICT\Project Memory\Memory spel 16-10\Memory Game\Memory Game\obj\Debug\Memory Game.pdb

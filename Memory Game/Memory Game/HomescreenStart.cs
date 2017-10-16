@@ -17,8 +17,28 @@ namespace Memory_Game
         {
             InitializeComponent();
 
+            if (Data.mario == true)
+            {
+                this.BackgroundImage = Properties.Resources.MARbackground;
+
+            }
+
+            if (Data.meme == true)
+            {
+                this.BackgroundImage = Properties.Resources.MEMEbackground;
+
+            }
+
+            if (Data.poke == true)
+            {
+                this.BackgroundImage = Properties.Resources.POKEbackground;
+
+            }
+
             Start.Enabled = false;
         }
+
+
 
         
 

@@ -11,17 +11,35 @@ namespace Memory_Game
 {
     public partial class HomescreenThemes : Form
     {
-        bool mario = false, meme = false, poke = false;
+        
         Homescreen start;
         public HomescreenThemes()
         {
             InitializeComponent();
+
+            if (Data.mario == true)
+            {
+                this.BackgroundImage = Properties.Resources.MARbackground;
+
+            }
+
+            if (Data.meme == true)
+            {
+                this.BackgroundImage = Properties.Resources.MEMEbackground;
+
+            }
+
+            if (Data.poke == true)
+            {
+                this.BackgroundImage = Properties.Resources.POKEbackground;
+
+            }
+
         }
 
         private void Back_Click(object sender, EventArgs e)
         {
-            start = new Homescreen();
-            start.ThemePasser(mario, meme, poke);
+            start = new Homescreen();            
             this.Hide();
             start.ShowDialog();
             this.Close();
@@ -32,6 +50,7 @@ namespace Memory_Game
             Data.mario = true;
             Data.meme = false;
             Data.poke = false;
+            this.BackgroundImage = Properties.Resources.MARbackground;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,6 +58,7 @@ namespace Memory_Game
             Data.mario = false;
             Data.meme = true;
             Data.poke = false;
+            this.BackgroundImage = Properties.Resources.MEMEbackground;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -46,6 +66,7 @@ namespace Memory_Game
             Data.mario = false;
             Data.meme = false;
             Data.poke = true;
+            this.BackgroundImage = Properties.Resources.POKEbackground;
         }
     }
 }

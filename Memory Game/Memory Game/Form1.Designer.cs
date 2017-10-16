@@ -59,6 +59,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.SaveQuit = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -412,12 +413,23 @@
             this.pictureBox18.TabIndex = 13;
             this.pictureBox18.TabStop = false;
             // 
+            // SaveQuit
+            // 
+            this.SaveQuit.Location = new System.Drawing.Point(1129, 289);
+            this.SaveQuit.Name = "SaveQuit";
+            this.SaveQuit.Size = new System.Drawing.Size(75, 44);
+            this.SaveQuit.TabIndex = 14;
+            this.SaveQuit.Text = "Save";
+            this.SaveQuit.UseVisualStyleBackColor = true;
+            this.SaveQuit.Click += new System.EventHandler(this.SaveQuit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(1384, 733);
+            this.Controls.Add(this.SaveQuit);
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button2);
@@ -488,6 +500,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Button SaveQuit;
     }
 }
 

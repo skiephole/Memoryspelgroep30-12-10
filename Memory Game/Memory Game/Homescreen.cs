@@ -13,8 +13,14 @@ namespace Memory_Game
     {
         public static int kleur = 3;
 
-        public void ThemePasser(bool mario, bool meme, bool poke)
+       
+      
+
+        public Homescreen()
         {
+            InitializeComponent();
+
+
             if (Data.mario == true)
             {
                 this.BackgroundImage = Properties.Resources.MARbackground;
@@ -33,11 +39,7 @@ namespace Memory_Game
 
             }
 
-        }
 
-        public Homescreen()
-        {
-            InitializeComponent();
         }
 
         private void Quit_Click(object sender, EventArgs e)

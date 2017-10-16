@@ -34,6 +34,8 @@ namespace Memory_Game
 
             InitializeComponent();
 
+            
+
             List<MemoryCard> list = MakeList();
             label1.BackColor = Color.Red;
             MemoryCard[] catalog = MakeCatalog();
@@ -78,8 +80,7 @@ namespace Memory_Game
                 currentTheme = imagesmeme;
             else if (Data.poke)
                 currentTheme = imagespokemon;
-            else
-                currentTheme = imagesmeme; //default setting voor als niemand een theme selecteert.
+           
 
             foreach (Control control in tableLayoutPanel1.Controls)
             {
@@ -219,6 +220,11 @@ namespace Memory_Game
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void SaveQuit_Click(object sender, EventArgs e)
+        {
+            JesusSaves.Save(tableLayoutPanel1.Controls, score1, score2, true);
         }
 
         private void ResetTimer()

@@ -13,6 +13,6 @@ namespace Memory_Game
         }
 
         public static string playername1, playername2;
-        public static bool mario = false, meme = false, poke = false;
+        public static bool mario = false, meme = true, poke = false;
     }
 }
