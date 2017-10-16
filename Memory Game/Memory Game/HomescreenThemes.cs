@@ -29,17 +29,23 @@ namespace Memory_Game
 
         private void button1_Click(object sender, EventArgs e)
         {
-            mario = true;
+            Data.mario = true;
+            Data.meme = false;
+            Data.poke = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            meme = true;
+            Data.mario = false;
+            Data.meme = true;
+            Data.poke = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            poke = true;
+            Data.mario = false;
+            Data.meme = false;
+            Data.poke = true;
         }
     }
 }

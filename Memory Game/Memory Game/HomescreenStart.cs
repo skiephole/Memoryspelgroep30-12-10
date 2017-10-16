@@ -13,10 +13,11 @@ namespace Memory_Game
     public partial class HomescreenStart : Form
     {
         Form1 start;
-        string p1, p2;
         public HomescreenStart()
         {
             InitializeComponent();
+
+            Start.Enabled = false;
         }
 
         
@@ -32,7 +33,6 @@ namespace Memory_Game
         private void Start_Click(object sender, EventArgs e)
         {
             start = new Form1();
-            start.Playernames(p1, p2);
             this.Hide();
             start.ShowDialog();
             this.Close();
@@ -44,7 +44,16 @@ namespace Memory_Game
             // txt.Write(Player1.Text);
             // txt.Close();
             TextBox textBox = sender as TextBox;
-            p1 = textBox.Text;
+            Data.playername1 = textBox.Text;
+
+            if(string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                Start.Enabled = false;
+            }
+            else
+            {
+                Start.Enabled = true;
+            }
         }
 
         private void HomescreenStart_Load(object sender, EventArgs e)
@@ -54,8 +63,17 @@ namespace Memory_Game
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                Start.Enabled = false;
+            }
+            else
+            {
+                Start.Enabled = true;
+            }
+
             TextBox textBox = sender as TextBox;
-            p2 = textBox.Text;
+            Data.playername2 = textBox.Text;
         }
     }
 }

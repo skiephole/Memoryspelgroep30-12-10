@@ -15,19 +15,19 @@ namespace Memory_Game
 
         public void ThemePasser(bool mario, bool meme, bool poke)
         {
-            if (mario == true)
+            if (Data.mario == true)
             {
                 this.BackgroundImage = Properties.Resources.MARbackground;
 
             }
 
-            if (meme == true)
+            if (Data.meme == true)
             {
                 this.BackgroundImage = Properties.Resources.MEMEbackground;
 
             }
 
-            if (poke == true)
+            if (Data.poke == true)
             {
                 this.BackgroundImage = Properties.Resources.POKEbackground;
 

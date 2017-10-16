@@ -22,9 +22,11 @@ namespace Memory_Game
         Random rnd = new Random();
         PictureBox firstClick, secondClick;
         double timeleft = 10.49;
-        Image[] imagesmario = new Image[8];
-        Image[] imagesmeme = new Image[8];
-        Image[] imagespokemon = new Image[8];
+        Image[] imagesmario = new Image[9];
+        Image[] imagesmeme = new Image[9];
+        Image[] imagespokemon = new Image[9];
+        Image[] currentTheme;
+
 
 
         public Form1()
@@ -36,6 +38,9 @@ namespace Memory_Game
             label1.BackColor = Color.Red;
             MemoryCard[] catalog = MakeCatalog();
 
+            label1.Text = Data.playername1;
+            label2.Text = Data.playername2;
+
 
             imagesmario[0] = Properties.Resources.MAR1_2;
             imagesmario[1] = Properties.Resources.MAR3_4;
@@ -45,6 +50,7 @@ namespace Memory_Game
             imagesmario[5] = Properties.Resources.MAR11_12;
             imagesmario[6] = Properties.Resources.MAR13_14;
             imagesmario[7] = Properties.Resources.MAR15_16;
+            imagesmario[8] = Properties.Resources.MARcover;
 
             imagesmeme[0] = Properties.Resources.MEME1_2;
             imagesmeme[1] = Properties.Resources.MEME3_4;
@@ -54,6 +60,7 @@ namespace Memory_Game
             imagesmeme[5] = Properties.Resources.MEME11_12;
             imagesmeme[6] = Properties.Resources.MEME13_14;
             imagesmeme[7] = Properties.Resources.MEME15_16;
+            imagesmeme[8] = Properties.Resources.MEMEcover;
 
             imagespokemon[0] = Properties.Resources.POKE1_2;
             imagespokemon[1] = Properties.Resources.POKE3_4;
@@ -63,13 +70,27 @@ namespace Memory_Game
             imagespokemon[5] = Properties.Resources.POKE11_12;
             imagespokemon[6] = Properties.Resources.POKE13_14;
             imagespokemon[7] = Properties.Resources.POKE15_16;
+            imagespokemon[8] = Properties.Resources.POKEcover;
+
+            if (Data.mario)
+                currentTheme = imagesmario;
+            else if (Data.meme)
+                currentTheme = imagesmeme;
+            else if (Data.poke)
+                currentTheme = imagespokemon;
+            else
+                currentTheme = imagesmeme; //default setting voor als niemand een theme selecteert.
 
             foreach (Control control in tableLayoutPanel1.Controls)
             {
+                PictureBox picturebox = control as PictureBox;
                 AssignRandomTag(control, list);
+                picturebox.Image = currentTheme[8];
+                picturebox.SizeMode = PictureBoxSizeMode.StretchImage;
                 Console.WriteLine(control.Name);
             }
             bonusCard = rnd.Next(0, 8);
+            pictureBox18.Image = currentTheme[bonusCard];
             Console.WriteLine("Joker = " + bonusCard);
             
 
@@ -81,15 +102,15 @@ namespace Memory_Game
             if (firstClick == null && picturebox.BackColor != Color.Green)
             {
                 firstClick = picturebox;
-                picturebox.Image = imagesmario[Convert.ToInt32(picturebox.Tag)];
+                picturebox.Image = currentTheme[Convert.ToInt32(picturebox.Tag)];
                 Console.WriteLine(picturebox.Tag);
             }
             else if (firstClick != picturebox && picturebox.BackColor != Color.Green)
             {
                 secondClick = picturebox;
-                picturebox.Image = imagesmario[Convert.ToInt32(picturebox.Tag)];
+                picturebox.Image = currentTheme[Convert.ToInt32(picturebox.Tag)];
                 this.Update();
-                Thread.Sleep(0);
+                Thread.Sleep(500);
                 Console.WriteLine(picturebox.Tag);
                 ResolveMatch(firstClick, secondClick);
                 ResetTimer();                
@@ -146,7 +167,7 @@ namespace Memory_Game
         {
             if (timeleft > 0)
             {
-                timeleft = timeleft - 0.5;
+                timeleft = timeleft - ((double)timer1.Interval) / 655d;
 
                 string time = timeleft.ToString("00");
                 label5.Text = time;
@@ -170,13 +191,11 @@ namespace Memory_Game
 
         }
 
-        public void Playernames(string name1, string name2)
+        private void Rset_Click(object sender, EventArgs e)
         {
-            player1 = name1;
-            label1.Text = player1;
-            player2 = name2;
-            label2.Text = player2;
-
+            Form1 newForm = new Form1();
+            newForm.Show();
+            this.Dispose(false);
         }
 
         private void ResolveMatch(PictureBox first, PictureBox second)
@@ -190,10 +209,15 @@ namespace Memory_Game
             }
             else
             {
-                first.BackColor = Color.White;
-                second.BackColor = Color.White;
+                first.Image = currentTheme[8];
+                second.Image = currentTheme[8];
                 Nextturn();
             }
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
 
