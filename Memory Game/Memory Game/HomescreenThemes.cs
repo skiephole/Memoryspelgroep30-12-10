@@ -11,6 +11,8 @@ namespace Memory_Game
 {
     public partial class HomescreenThemes : Form
     {
+        bool mario = false, meme = false, poke = false;
+        Homescreen start;
         public HomescreenThemes()
         {
             InitializeComponent();
@@ -18,10 +20,26 @@ namespace Memory_Game
 
         private void Back_Click(object sender, EventArgs e)
         {
-            Homescreen start = new Homescreen();
+            start = new Homescreen();
+            start.ThemePasser(mario, meme, poke);
             this.Hide();
             start.ShowDialog();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mario = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            meme = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            poke = true;
         }
     }
 }

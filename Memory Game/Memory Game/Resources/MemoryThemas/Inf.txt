@@ -1,0 +1,3 @@
+size cards: 	242, 175
+
+background:	?, ?

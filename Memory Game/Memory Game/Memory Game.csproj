@@ -139,5 +139,95 @@
   <ItemGroup>
     <None Include="Resources\Savefile.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE1-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE3-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE5-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE7-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE9-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE11-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE13-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKE15-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKEbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\POKEtheme\POKEcover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME1-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME3-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME5-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME7-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME9-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME11-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME13-14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEME15-16.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEMEbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MEMEtheme\MEMEcover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR1-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR3-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR5-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR7-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR9-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR11-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR13-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MAR15-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MARbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryThemas\MARIOtheme\MARcover.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

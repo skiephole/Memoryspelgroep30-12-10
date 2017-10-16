@@ -41,7 +41,7 @@
             this.Start.BackColor = System.Drawing.Color.PaleGreen;
             this.Start.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
             this.Start.Location = new System.Drawing.Point(267, 49);
-            this.Start.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Start.Margin = new System.Windows.Forms.Padding(4);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(267, 49);
             this.Start.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.Close.BackColor = System.Drawing.Color.PaleGreen;
             this.Close.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
             this.Close.Location = new System.Drawing.Point(267, 338);
-            this.Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Close.Margin = new System.Windows.Forms.Padding(4);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(267, 49);
             this.Close.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.Player1.BackColor = System.Drawing.Color.IndianRed;
             this.Player1.Font = new System.Drawing.Font("Sitka Small", 15F);
             this.Player1.Location = new System.Drawing.Point(372, 159);
-            this.Player1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Player1.Margin = new System.Windows.Forms.Padding(4);
             this.Player1.Name = "Player1";
             this.Player1.Size = new System.Drawing.Size(217, 39);
             this.Player1.TabIndex = 2;
@@ -78,7 +78,7 @@
             this.textBox1.BackColor = System.Drawing.Color.IndianRed;
             this.textBox1.Font = new System.Drawing.Font("Sitka Small", 15F);
             this.textBox1.Location = new System.Drawing.Point(372, 240);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(217, 39);
             this.textBox1.TabIndex = 3;
@@ -111,6 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(779, 444);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -118,9 +119,10 @@
             this.Controls.Add(this.Player1);
             this.Controls.Add(this.Close);
             this.Controls.Add(this.Start);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HomescreenStart";
             this.Text = "Memory Game";
+            this.Load += new System.EventHandler(this.HomescreenStart_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

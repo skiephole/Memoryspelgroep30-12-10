@@ -22,14 +22,48 @@ namespace Memory_Game
         Random rnd = new Random();
         PictureBox firstClick, secondClick;
         double timeleft = 10.49;
-        
+        Image[] imagesmario = new Image[8];
+        Image[] imagesmeme = new Image[8];
+        Image[] imagespokemon = new Image[8];
+
 
         public Form1()
         {
+
             InitializeComponent();
+
             List<MemoryCard> list = MakeList();
             label1.BackColor = Color.Red;
             MemoryCard[] catalog = MakeCatalog();
+
+
+            imagesmario[0] = Properties.Resources.MAR1_2;
+            imagesmario[1] = Properties.Resources.MAR3_4;
+            imagesmario[2] = Properties.Resources.MAR5_6;
+            imagesmario[3] = Properties.Resources.MAR7_8;
+            imagesmario[4] = Properties.Resources.MAR9_10;
+            imagesmario[5] = Properties.Resources.MAR11_12;
+            imagesmario[6] = Properties.Resources.MAR13_14;
+            imagesmario[7] = Properties.Resources.MAR15_16;
+
+            imagesmeme[0] = Properties.Resources.MEME1_2;
+            imagesmeme[1] = Properties.Resources.MEME3_4;
+            imagesmeme[2] = Properties.Resources.MEME5_6;
+            imagesmeme[3] = Properties.Resources.MEME7_8;
+            imagesmeme[4] = Properties.Resources.MEME9_10;
+            imagesmeme[5] = Properties.Resources.MEME11_12;
+            imagesmeme[6] = Properties.Resources.MEME13_14;
+            imagesmeme[7] = Properties.Resources.MEME15_16;
+
+            imagespokemon[0] = Properties.Resources.POKE1_2;
+            imagespokemon[1] = Properties.Resources.POKE3_4;
+            imagespokemon[2] = Properties.Resources.POKE5_6;
+            imagespokemon[3] = Properties.Resources.POKE7_8;
+            imagespokemon[4] = Properties.Resources.POKE9_10;
+            imagespokemon[5] = Properties.Resources.POKE11_12;
+            imagespokemon[6] = Properties.Resources.POKE13_14;
+            imagespokemon[7] = Properties.Resources.POKE15_16;
+
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 AssignRandomTag(control, list);
@@ -47,13 +81,13 @@ namespace Memory_Game
             if (firstClick == null && picturebox.BackColor != Color.Green)
             {
                 firstClick = picturebox;
-                picturebox.BackColor = Color.Red;
+                picturebox.Image = imagesmario[Convert.ToInt32(picturebox.Tag)];
                 Console.WriteLine(picturebox.Tag);
             }
             else if (firstClick != picturebox && picturebox.BackColor != Color.Green)
             {
                 secondClick = picturebox;
-                picturebox.BackColor = Color.Red;
+                picturebox.Image = imagesmario[Convert.ToInt32(picturebox.Tag)];
                 this.Update();
                 Thread.Sleep(0);
                 Console.WriteLine(picturebox.Tag);

@@ -13,6 +13,28 @@ namespace Memory_Game
     {
         public static int kleur = 3;
 
+        public void ThemePasser(bool mario, bool meme, bool poke)
+        {
+            if (mario == true)
+            {
+                this.BackgroundImage = Properties.Resources.MARbackground;
+
+            }
+
+            if (meme == true)
+            {
+                this.BackgroundImage = Properties.Resources.MEMEbackground;
+
+            }
+
+            if (poke == true)
+            {
+                this.BackgroundImage = Properties.Resources.POKEbackground;
+
+            }
+
+        }
+
         public Homescreen()
         {
             InitializeComponent();

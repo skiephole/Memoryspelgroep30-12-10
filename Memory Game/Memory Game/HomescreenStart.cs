@@ -19,6 +19,8 @@ namespace Memory_Game
             InitializeComponent();
         }
 
+        
+
         private void Close_Click(object sender, EventArgs e)
         {
             Homescreen start = new Homescreen();
@@ -43,6 +45,11 @@ namespace Memory_Game
             // txt.Close();
             TextBox textBox = sender as TextBox;
             p1 = textBox.Text;
+        }
+
+        private void HomescreenStart_Load(object sender, EventArgs e)
+        {
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
