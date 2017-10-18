@@ -300,7 +300,6 @@
             this.label1.Size = new System.Drawing.Size(88, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Player1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -312,7 +311,6 @@
             this.label2.Size = new System.Drawing.Size(89, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Player2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -344,10 +342,10 @@
             this.label5.Size = new System.Drawing.Size(64, 29);
             this.label5.TabIndex = 5;
             this.label5.Text = "Time";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 

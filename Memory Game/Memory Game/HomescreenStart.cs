@@ -66,7 +66,7 @@ namespace Memory_Game
             TextBox textBox = sender as TextBox;
             Data.playername1 = textBox.Text;
 
-            if(string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text))
+            if(string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text) || Player1.Text == textBox1.Text)
             {
                 Start.Enabled = false;
             }
@@ -83,7 +83,7 @@ namespace Memory_Game
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text))
+            if (string.IsNullOrWhiteSpace(Player1.Text) || string.IsNullOrWhiteSpace(textBox1.Text) || Player1.Text == textBox1.Text)
             {
                 Start.Enabled = false;
             }

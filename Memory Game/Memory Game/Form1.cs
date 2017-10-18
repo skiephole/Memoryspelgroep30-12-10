@@ -15,13 +15,14 @@ namespace Memory_Game
 {
     public partial class Form1 : Form
     {
+        int seconde, volgendeSeconde = -1;
         int bonusCard; //moet nog in de savefile
         int streak = 0;  //moet nog in de savefile
         string player1, player2;
         int score1, score2;
         Random rnd = new Random();
         PictureBox firstClick, secondClick;
-        double timeleft = 10.49;
+        int timeleft = 10;
         Image[] imagesmario = new Image[9];
         Image[] imagesmeme = new Image[9];
         Image[] imagespokemon = new Image[9];
@@ -148,36 +149,42 @@ namespace Memory_Game
             list.RemoveAt(i);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void VolgendeSeconde ()
         {
-           
             
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void BetereTimer_Tick(object sender, EventArgs e)
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (timeleft > 0)
+            if (DateTime.Now.Second == volgendeSeconde)
             {
-                timeleft = timeleft - ((double)timer1.Interval) / 655d;
+                int i = Convert.ToInt32(label5.Text);
+                volgendeSeconde = (volgendeSeconde + 1) % 60;
 
-                string time = timeleft.ToString("00");
-                label5.Text = time;
-            }
-            else
-            {
-                timer1.Stop();
-                label6.Text = "No time \nleft";
-                
+                if (i > 0)
+                {
+                    i--;
+                    label5.Text = i.ToString("00");
+                }
+
+                else if (label1.BackColor == Color.Red && score1 > 0)
+                {
+                    score1--;
+                    UpdateScore();
+                    label6.Text = "Hurry up! \nYour score is at stake!";
+                }
+
+                else if (label2.BackColor == Color.Red && score2 > 0)
+                {
+                    score2--;
+                    UpdateScore();
+                    label6.Text = "Hurry up! \nYour score is at stake!";
+                }
             }
         }
 
@@ -230,8 +237,13 @@ namespace Memory_Game
 
         private void ResetTimer()
         {
-            timeleft= 10.49;
-            timer1.Start();
+            if (volgendeSeconde == -1)
+            {
+                volgendeSeconde = (DateTime.Now.Second + 1) % 60;
+            }
+
+            timeleft = 10;
+            label5.Text = "10";
             label6.Text = "";
         }
 
@@ -264,16 +276,20 @@ namespace Memory_Game
             if(label1.BackColor == Color.Red)
             {
                 score1 += scorePlus;
-                label7.Text = score1.ToString();
             }
             else
             {
                 score2 += scorePlus;
-                label8.Text = score2.ToString();
             }
 
-
+            UpdateScore();
             streak++;
+        }
+
+        private void UpdateScore()
+        {
+            label7.Text = score1.ToString();
+            label8.Text = score2.ToString();
         }
 
     }
