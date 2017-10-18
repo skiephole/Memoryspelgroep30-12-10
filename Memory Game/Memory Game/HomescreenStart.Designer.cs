@@ -39,8 +39,8 @@
             // Start
             // 
             this.Start.BackColor = System.Drawing.Color.PaleGreen;
-            this.Start.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
-            this.Start.Location = new System.Drawing.Point(267, 49);
+            this.Start.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Start.Location = new System.Drawing.Point(296, 302);
             this.Start.Margin = new System.Windows.Forms.Padding(4);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(267, 49);
@@ -52,8 +52,8 @@
             // Close
             // 
             this.Close.BackColor = System.Drawing.Color.PaleGreen;
-            this.Close.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
-            this.Close.Location = new System.Drawing.Point(267, 338);
+            this.Close.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Close.Location = new System.Drawing.Point(296, 382);
             this.Close.Margin = new System.Windows.Forms.Padding(4);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(267, 49);
@@ -65,44 +65,44 @@
             // Player1
             // 
             this.Player1.BackColor = System.Drawing.Color.IndianRed;
-            this.Player1.Font = new System.Drawing.Font("Sitka Small", 15F);
-            this.Player1.Location = new System.Drawing.Point(372, 159);
+            this.Player1.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1.Location = new System.Drawing.Point(320, 86);
             this.Player1.Margin = new System.Windows.Forms.Padding(4);
             this.Player1.Name = "Player1";
-            this.Player1.Size = new System.Drawing.Size(217, 39);
+            this.Player1.Size = new System.Drawing.Size(217, 36);
             this.Player1.TabIndex = 2;
             this.Player1.TextChanged += new System.EventHandler(this.Player1_TextChanged);
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.IndianRed;
-            this.textBox1.Font = new System.Drawing.Font("Sitka Small", 15F);
-            this.textBox1.Location = new System.Drawing.Point(372, 240);
+            this.textBox1.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(320, 202);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(217, 39);
+            this.textBox1.Size = new System.Drawing.Size(217, 36);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(209, 164);
+            this.label1.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(150, 86);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 35);
+            this.label1.Size = new System.Drawing.Size(99, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Player 1:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(209, 240);
+            this.label2.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(150, 202);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 35);
+            this.label2.Size = new System.Drawing.Size(105, 29);
             this.label2.TabIndex = 5;
             this.label2.Text = "Player 2: ";
             // 

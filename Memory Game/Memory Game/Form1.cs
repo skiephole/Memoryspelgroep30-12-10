@@ -181,11 +181,7 @@ namespace Memory_Game
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            timer1.Tick += new EventHandler(timer1_Tick);
-            timer1.Start();
-        }
+       
 
         private void label6_Click(object sender, EventArgs e)
         {
@@ -225,6 +221,11 @@ namespace Memory_Game
         private void SaveQuit_Click(object sender, EventArgs e)
         {
             JesusSaves.Save(tableLayoutPanel1.Controls, score1, score2, true);
+        }
+
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void ResetTimer()

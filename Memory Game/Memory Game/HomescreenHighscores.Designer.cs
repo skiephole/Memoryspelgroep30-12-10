@@ -34,10 +34,11 @@
             // Back
             // 
             this.Back.BackColor = System.Drawing.Color.PaleGreen;
-            this.Back.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Bold);
-            this.Back.Location = new System.Drawing.Point(200, 300);
+            this.Back.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Back.Location = new System.Drawing.Point(267, 369);
+            this.Back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Back.Name = "Back";
-            this.Back.Size = new System.Drawing.Size(200, 40);
+            this.Back.Size = new System.Drawing.Size(267, 49);
             this.Back.TabIndex = 0;
             this.Back.Text = "Back";
             this.Back.UseVisualStyleBackColor = false;
@@ -45,11 +46,12 @@
             // 
             // HomescreenHighscores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.ClientSize = new System.Drawing.Size(584, 361);
+            this.ClientSize = new System.Drawing.Size(779, 444);
             this.Controls.Add(this.Back);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomescreenHighscores";
             this.Text = "Memory Game";
             this.ResumeLayout(false);
